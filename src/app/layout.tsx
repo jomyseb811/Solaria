@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Orbitron } from "next/font/google";
 
@@ -11,7 +10,7 @@ const orbitron = Orbitron({
 })
 
 export const metadata: Metadata = {
-  title: "Solar System",
+  title: "Solaria",
   description: "3D Solar System App",
 }
 
