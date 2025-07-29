@@ -1,8 +1,6 @@
-import { useTexture } from '@react-three/drei'
 import { useFrame, useLoader } from '@react-three/fiber'
 import React, {  useEffect, useRef } from 'react'
 import * as THREE from 'three'
-import { TextureHelper } from 'three/examples/jsm/helpers/TextureHelperGPU.js'
 
 type MercuProps = {
     position ? : [number , number , number],

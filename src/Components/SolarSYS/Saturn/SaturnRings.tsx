@@ -1,8 +1,7 @@
-import { useMemo, useRef } from 'react'
+import { useMemo} from 'react'
 import { Points, PointMaterial } from '@react-three/drei'
-import * as THREE from 'three'
-import { exp } from 'three/tsl'
-import { useFrame } from '@react-three/fiber'
+
+
 
 function SaturnRings({ radius = 5, width = 2, count = 2000, color = 'gray' }) {
 

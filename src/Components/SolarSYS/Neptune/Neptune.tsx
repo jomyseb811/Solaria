@@ -1,4 +1,3 @@
-import { useTexture } from '@react-three/drei'
 import { useFrame, useLoader } from '@react-three/fiber'
 import React, { useEffect, useRef } from 'react'
 import * as THREE from 'three'

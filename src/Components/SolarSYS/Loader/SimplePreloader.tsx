@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export const SimplePreLoader = () => (
   <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
     <div className="text-center">
-      <img 
+      <Image
         src="/solaria_logo.png" 
         className="w-32 mx-auto mb-4 animate-spin-slow"
         alt="Loading"
