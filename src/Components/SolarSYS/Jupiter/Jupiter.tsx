@@ -10,7 +10,7 @@ type JupProps = {
 const Jupiter = ({position = [ 0, 0, 0 ],onLoad} : JupProps) => {
 
     const jupRef = useRef <THREE.Mesh> (null)
-    const texture = useLoader(THREE.TextureLoader,'/textures/jupiter.jpg')
+    const texture = useLoader(THREE.TextureLoader,'/textures/Jupiter.jpg')
   const calledRef = useRef(false) 
 
   useEffect(() => {
