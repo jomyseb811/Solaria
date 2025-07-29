@@ -9,7 +9,7 @@ type MarProps = {
 const Mars = ({position = [ 0, 0, 0],onLoad} : MarProps) => {
 
     const MarsRef = useRef<THREE.Mesh>(null)
- const texture = useLoader(THREE.TextureLoader,'/Mars.jpg')
+ const texture = useLoader(THREE.TextureLoader,'/textures/Mars.jpg')
 
     const calledRef = useRef(false) 
 

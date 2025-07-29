@@ -8,7 +8,7 @@ type VenusProps = {
 }
 const Venus = ({position = [0, 0, 0],onLoad}: VenusProps) => {
     const venRef = useRef<THREE.Mesh>(null)
-    const texture = useLoader(THREE.TextureLoader,'/venus.jpg')
+    const texture = useLoader(THREE.TextureLoader,'/textures/venus.jpg')
   const calledRef = useRef(false) 
 
   useEffect(() => {

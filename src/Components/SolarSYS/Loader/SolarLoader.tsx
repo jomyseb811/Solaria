@@ -12,8 +12,10 @@ const SolarLoader = () => {
     <Html center className='z-[1000]'>
     <div className='flex flex-col items-center font-orbitron text-[#ffaa00] drop-shadow-[0_0_10px_rgba(255,170,0,0.7)]'>
 <Image
+  width={128}
+  height={128}
 alt='solaria_log'
-src={'/solaria_logo.png'}
+src={'/textures/solaria_logo.png'}
 className='w-32 mb-2 animate-spin-slow drop-shadow-[0_0_15px_rgba(255,170,0,0.7)]'
 />
 <div className='text-4xl font-bold'>{progress.toFixed(0)}%</div>

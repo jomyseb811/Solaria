@@ -77,7 +77,9 @@ function SolarSystemScene() {
   {!isLoading && (
     <div className="absolute top-4 left-4 z-50 animate-fadeIn">
       <Image 
-        src="/solaria_logo.png" 
+        width={128}
+  height={128}
+        src="/textures/solaria_logo.png" 
         alt="Solaria Logo"
         className="w-65 h-auto drop-shadow-[0_0_10px_rgba(255,170,0,0.7)] hover:scale-105 transition-transform"
       />

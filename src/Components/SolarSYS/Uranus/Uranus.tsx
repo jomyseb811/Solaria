@@ -8,7 +8,7 @@ type UranProps = {
     onLoad ?: ()=> void
 }
 const Uranus = ({position=[0,0,0], onLoad}: UranProps) => {
-const texture = useLoader(THREE.TextureLoader,'/Uranus.jpg')
+const texture = useLoader(THREE.TextureLoader,'/textures/Uranus.jpg')
 const uranRef = useRef<THREE.Mesh>(null)
 
   const calledRef = useRef(false)

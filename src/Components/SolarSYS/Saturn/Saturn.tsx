@@ -10,7 +10,7 @@ type SaturnProps = {
 const Saturn = ({position = [0,0,0],onLoad}: SaturnProps) => {
 
   const satRef = useRef<THREE.Mesh>(null)
-  const texture = useLoader(THREE.TextureLoader,'/SaturnReal.jpg')
+  const texture = useLoader(THREE.TextureLoader,'/textures/SaturnReal.jpg')
 
     const calledRef = useRef(false) 
 

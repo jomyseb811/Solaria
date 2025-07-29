@@ -10,7 +10,7 @@ type NeptuneProps = {
 const Neptune = ({position=[0, 0, 0], onLoad}: NeptuneProps) => {
 
     const nepRef = useRef<THREE.Mesh>(null)
-    const texture = useLoader(THREE.TextureLoader,'/Neptune.jpg')
+    const texture = useLoader(THREE.TextureLoader,'/textures/Neptune.jpg')
 
    const calledRef = useRef(false) 
 

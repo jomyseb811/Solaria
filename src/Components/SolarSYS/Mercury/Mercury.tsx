@@ -8,7 +8,7 @@ type MercuProps = {
 }
 const Mercury = ( {position = [0,0,0] , onLoad}: MercuProps) => {
     const mercRef = useRef<THREE.Mesh>(null)
-    const texture = useLoader(THREE.TextureLoader,'/Mercury.jpg')
+    const texture = useLoader(THREE.TextureLoader,'/textures/Mercury.jpg')
   const calledRef = useRef(false) 
 
   useEffect(() => {

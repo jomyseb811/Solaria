@@ -8,7 +8,7 @@ type MoonProps = {
 
 export default function Moon({ position = [0, 0, 0], onLoad }: MoonProps) {
   const moonRef = useRef<THREE.Mesh>(null!)
-  const texture = useLoader(THREE.TextureLoader,'/moon.jpg')
+  const texture = useLoader(THREE.TextureLoader,'/textures/moon.jpg')
   const calledRef = useRef(false) 
 
   useEffect(() => {

@@ -13,7 +13,7 @@ const SpaceShip = ({ onLoad, ...props }: SpaceShipProps) => {
   const [hasLoaded, setHasLoaded] = useState(false)
   
   const { scene } = useGLTF(
-    'models/International_Space_Station.glb',
+    '/Models/International_Space_Station.glb',
     undefined,
     undefined,
     (loader) => {
@@ -50,6 +50,6 @@ const SpaceShip = ({ onLoad, ...props }: SpaceShipProps) => {
   )
 }
 
-useGLTF.preload('models/International_Space_Station.glb')
+useGLTF.preload('/Models/International_Space_Station.glb')
 
 export default SpaceShip

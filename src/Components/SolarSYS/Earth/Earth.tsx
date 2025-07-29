@@ -10,7 +10,7 @@ type EarthProps = {
 export default function Earth({ position = [0, 0, 0], onLoad }: EarthProps) {
   const earthRef = useRef<THREE.Mesh>(null!)
   
-  const texture = useLoader(THREE.TextureLoader, '/earth_atmos_4096.jpg')
+  const texture = useLoader(THREE.TextureLoader, '/textures/earth_atmos_4096.jpg')
   const calledRef = useRef(false) 
 
   useEffect(() => {
